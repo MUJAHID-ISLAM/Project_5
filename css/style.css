@@ -1,0 +1,336 @@
+body{
+   
+    background-color: #f0fff0;
+}
+.header-backgrond-color{
+    
+}
+
+
+/* nav seciton start */
+.Navba-style{
+margin-top: 30px;
+
+}
+.login-style{
+  background-color: #21b573;
+  border-radius: 20px;
+ 
+ 
+}
+.nav-item a{
+margin: 0px 10px;
+font-weight: bold;
+
+}
+.header-button{
+    background-color: #21b573;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+.header-button a{
+   text-decoration: none;
+   color: white;
+    
+}
+
+/* nav seciton end */
+
+
+
+
+/* slider seciton start */
+
+.slider{
+margin-top: 50px;
+height: 400px;
+
+}
+.slider h1{
+    font-weight: bold;
+}
+.slider p{
+ font-size: 18px;
+    width: 450px;
+    padding: 20px 0px;
+}
+
+/* slider seciton end */
+
+
+/*  book-section-start  */
+.body-BG-color{
+    background-color: white;
+    height: 2700px;
+   
+}
+.border-shadow{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 8px 20px rgb(211, 210, 210);
+}
+#book-section{
+ padding-top: 60px;
+ padding-bottom: 80px;
+}
+.book-img img{
+width: 40%;
+}
+.book-img{
+    padding: 45px 0px 20px 0px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.book-img img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.book-img{
+    transition: transform .5s;
+    margin: 0 auto; 
+}
+.book-img:hover{
+    transform: scale(1.08); 
+}
+
+
+/*  book-section-end  */
+
+
+.online h3{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/*   online-cours-start   */
+
+.box-shadow{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(211, 210, 210);
+}
+.box-shadow img{
+    padding: 15px;
+}
+.box-shadow h3{
+    color: #413960;
+}
+.box-shadow p{
+    color: #585859;
+    font-size: 18px;
+}
+.course{
+    margin-bottom: 80px;
+}
+.button-style{
+   
+    
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.button-style a{
+    text-decoration: none;
+    color: white;
+   
+}
+.box-shadow{
+    transition: transform .5s;
+    margin: 0 auto; 
+}
+.box-shadow:hover{
+    transform: scale(1.08); 
+}
+
+/*   online-cours-end   */
+
+
+ 
+
+/*   testimonial-start   */
+
+.testimonial h2{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    font-weight: bold;  
+    font-size: 40px;
+    padding-top: 60px;
+
+}
+
+.testimonial-img-style img{
+width: 40%;
+margin: 0 auto;
+}
+.testimonial-margin{
+    padding-bottom: 80px; 
+
+}
+
+/*   testimonial-end   */
+
+
+
+
+/* about-us- start */
+
+
+.about-our-team h2{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.all-img-hover{
+   
+    transition: transform .5s;
+    margin: 0 auto;  
+}
+.all-img-hover:hover{
+ 
+   transform: scale(1.08); 
+}
+#about-team{
+    margin-bottom: 100px;
+}
+.team-style{
+    box-shadow: 5px 5px 10px rgb(211, 210, 210);
+    border: none;
+    outline: 0;
+  }
+
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }  
+.title{
+    color: teal;
+}
+
+/* about-us- end */
+
+
+
+/* contact- start */
+.sumbit{
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 150px;
+    box-shadow: 5px 5px 10px rgb(211, 210, 210);
+   
+}
+
+
+
+/* contact- end */
+
+
+
+/*   footer-start   */
+.footer-BG-color{
+    background-color: #282531;
+    color: white;
+    height: 440px;
+    padding-top: 20px;
+    
+}
+.padding-style{
+  padding-top: 40px;
+}
+.padding-style h3{
+
+padding-bottom: 20px;
+}
+.padding-style p{
+width: 80%;
+}
+.padding-style a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.footer-section{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px; 
+    font-size: 18px;
+}
+
+
+
+.padding-style a:hover{
+    color: teal;
+}
+
+@media only screen and (min-width: 1025px) {
+    #responsive-nav{
+     
+        
+    }
+   
+    .responsive-nav a{
+        
+        width: 105px;
+        margin-right: -3px;
+      }
+
+.resposive-style-1025 h3{
+font-size: 25px;
+}
+     
+    .footer-BG-color{
+    
+    height: 480px;
+}
+  }
+
+
+  @media only screen and (min-width: 768px) {
+   .slider p{
+       width: 300px;
+   }
+    
+
+.resposive-style-1025 h3{
+font-size: 25px;
+}
+     
+    .footer-BG-color{
+    
+    height: 480px;
+}
+.testimonial-img-style img{
+width: 60%;
+}
+.team-style h2{
+font-size: 25px;
+}
+
+
+.book-img h4{
+    font-size: 20px;
+}
+  }
+
+
+
